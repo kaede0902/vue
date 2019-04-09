@@ -1,6 +1,7 @@
-const app = new Vue({
-    el: '#app',
+const app2 = new Vue({
+    el: '#app-2',
     data: {
-        msg: "Hello Vue!"
-    }
+        msg: 'You loaded this page on'
+            + new Date().toLocaleString(),
+    },
 })
